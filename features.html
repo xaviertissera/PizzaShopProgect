@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Web Development assignment 2">
+    <meta name="keywords" content="Bruno Pizzeria">
+    <meta name="author" content="Xavier Tissera">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Features</title>
+</head>
+
+<body>
+    <div id="rap"><!--main wrapper-->
+        <header>
+            <!--header main-->
+            <div id="tableTop">
+                <table>
+
+                    <tbody>
+                        <tr class="zz">
+                            <!--linking social media-->
+                            <td class="social">
+                                <div id="topBanner">
+
+                                    <a href="#" class="fa fa-instagram"></a>
+                                    <a href="#" class="fa fa-twitter"></a>
+                                    <a href="#" class="fa fa-facebook"></a>
+                                </div>
+                            </td>
+                            <!--linking naviagation-->
+                            <td>
+                                <div id="naviBar">
+                                    <nav class="navbar">
+                                        <div class="menu-icon"></div>
+                                        <input type="checkbox" id="check">
+                                        <label for="check" class="checkbtn">
+                                            <i class="fa fa-bars"></i>
+                                        </label>
+                                        <ul>
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="order.html">Orders</a></li>
+                                            <li><a href="about.html">About</a></li>
+                                            <li><a class="currentpg" href="features.html">Features</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </td>
+                            <!--top right corner-->
+                            <td>
+                                <div id="topBannertwo">
+                                    <a class="log" href="register.html">Sign Up</a>
+                                    <a class="log" href="login.html">Log In</a>
+                                </div>
+                            </td>
+                        </tr>
+                        <!--logo and the title-->
+                        <tr class="xhid animate__animated animate__flipInX">
+                            <td class="R0"><a href="index.html"><img class="logoimgG" src="images/llogo.jpg"
+                                        alt="logo"></a></td>
+                            <td colspan="2">
+                                <h1 class="logoH">&#x272e;Bruno Pizzeria&#x272e;</h1>
+                                <p class="headp">Ho, ho, ho Shake up the happiness Wake up the happiness</p>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </header>
+
+        <h1 class="menuHedding">Bruno Features</h1>
+        
+        <!--about main contnet-->
+        <div id="aboutPage">
+            <main class="maincc">
+                <!--article 1-->
+                <article class="articlefea">
+                    <h2 class="firsLetterCap">Hilight the Navigation - Task 1</h2>
+                    <p class="fpp">
+                        Highlight the menu item in the navigator corresponding to the current webpage
+                    </p>
+                    <section>
+                        
+                        <h3>Steps:</h3>
+                        <p class="fpp">&#9819; Sucessfully accoumplished by creating a class "class="currentpg"" to change the background colour
+                            background-color: teal; and linkined to respective location
+                        </p>
+                        <a class="faa" href="index.html">Click Me</a>
+    
+                    </section>
+                 
+                </article>
+                <!--article 2-->
+                <article class="articlefea">
+                    <h2 class="firsLetterCap">Featuring the Order.html - Task 2</h2>
+                    <p class="fpp">In page order.html, create a checkbox with label “same as delivery address” somewhere appropriate near the fields for
+                    billing address.When this checkbox is checked, the fields for billing address will be filled with the delivery address
+                    automatically. If the delivery address is not completed when this checkbox is checked, display an alert or inline
+                    message: “Please enter your delivery address first”.
+                    </p>
+
+                    <section>
+                    
+                        <h3>Steps:</h3>
+                        <p class="fpp">&#9819; Sucessfully accoumplished by using JavaScrip and CSS (reference: oroder.js)
+                        </p>
+                        <a class="faa" href="order.html">Click Me</a>
+                    
+                    </section>
+                </article>
+                <!--article 3-->
+                <article class="articlefea">
+                    <h2 class="firsLetterCap">Credit Card Number (Digit length) - Task 3</h2>
+                    <p class="fpp">Allow users to choose from three types of credit card: Visa, MasterCard and American Express. Based on the type of
+                    credit card, limit the length of the credit card number, 16 digits for Visa and MasterCard, 15 digits for American
+                    Express.
+                    </p>
+
+                    <section>
+                    
+                        <h3>Steps:</h3>
+                        <p class="fpp">&#9819; Sucessfully accoumplished by JavaScrip using nested if condition to validate the Type pf Credit Card and value of the txt box used to read the Creadit card number by matchinh with a pre defined pattern.
+
+                        </p>
+                        <p>&#9819;American Express - var patternAcard = /^\d{15}$/;</p>
+                        <p>&#9819;Master/ Visa - var patterncard = /^\d{16}$/;</p>
+                        <a class="faa" href="order.html">Click Me</a>
+                    
+                    </section>
+        
+                </article>
+            </main>
+        </div>
+
+        <!--fotter area-->
+        <footer>
+            <div id="tableFotter">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Open Hours</th>
+                            <th>PRODUCTS</th>
+                            <th>CAREERS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>7days</td>
+                            <td>Pizza</td>
+                            <td>Contact HR</td>
+
+                        </tr>
+                        <tr>
+                            <td>8.00 am - 1.00 pm</td>
+                            <td>Mojito</td>
+                            <td>hr@brunopizzaria.com</td>
+                        </tr>
+                        <tr>
+
+                            <td>6.30 pm - 11.30 pm</td>
+                            <td>Soft Drinks</td>
+                            <td>more infro</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+            <hr>
+            <article id="fotterArticle">
+                <h2>
+                    BRUNO PIZZERIA
+                </h2>
+                <p>The Best Pizza around the City | Toung Twist</p>
+                <p>Created by Xavier Tissera</p>
+            </article>
+
+            <article id="fotterArtiRight">
+                <h2>CONTACT US</h2>
+                <p>Tel: +61 0000000000</p>
+                <p><a href="mailto:webmaster@example.com">Email Us</a></p>
+                <p>Melbourne, Australia</p>
+
+            </article>
+            <p id="ff">
+                TM & Copyright 2020 Bruno Pizzeria. All Rights Reserved.
+            </p>
+
+        </footer>
+
+
+
+    </div>
+    <!--End of the wrapper-->
+
+
+
+</body>
+
+</html>
